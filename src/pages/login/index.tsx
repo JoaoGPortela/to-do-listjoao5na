@@ -28,9 +28,9 @@ export default function Login (){
 
             setTimeout(()=>{
                 if(email == 'teste@gmail.com' && password == '123456'){
-                    Alert.alert('Logado com sucesso')
+                    alert('Logado com sucesso')
                 }else{
-                    Alert.alert('Usuário não encontrado')
+                    alert('Usuário não encontrado')
                 }
                 
                 setLoading(false)
