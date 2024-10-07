@@ -23,7 +23,7 @@ export default function Login (){
         try {
             setLoading(true)
             if(!email || !password){
-                return Alert.alert('Atenção', 'Informe os campos obrigatórios!')
+               alert('Informe os campos obrigatórios!')
             }
 
             setTimeout(()=>{
